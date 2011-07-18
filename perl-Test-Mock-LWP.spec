@@ -1,9 +1,9 @@
 %define upstream_name    Test-Mock-LWP
-%define upstream_version 0.05
+%define upstream_version 0.06
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Mocks LWP::UserAgent
 License:    GPL+ or Artistic
