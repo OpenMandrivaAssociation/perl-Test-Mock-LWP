@@ -1,2 +1,4 @@
+removed_sources:
+  Test-Mock-LWP-0.06.tar.gz: fd2775a35e7650d1570e6eb8beac32309c8c067e
 sources:
-  "Test-Mock-LWP-0.06.tar.gz": fd2775a35e7650d1570e6eb8beac32309c8c067e
+  Test-Mock-LWP-0.08.tar.gz: 34fb9920c1cfe3f4cde345ab8cb91b8a45d252dd

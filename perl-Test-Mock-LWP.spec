@@ -1,15 +1,15 @@
 %define upstream_name    Test-Mock-LWP
-%define upstream_version 0.06
+%define upstream_version 0.08
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 
 Summary:	Mocks LWP::UserAgent
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Test/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Test/Test-Mock-LWP-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test::MockObject)
@@ -56,3 +56,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Wed May 05 2010 cpan2dist 0.05-1mdv
 - initial mdv release, generated with cpan2dist
+
